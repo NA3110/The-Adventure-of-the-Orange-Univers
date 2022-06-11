@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Adventure of The Orange Universe</title>
+    <style>
+      @font-face {
+        font-family: Sans;
+        src: url(/fonts/micross.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font;
+        src: url(/fonts/my-first-font.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font-Advanced;
+        src: url(/fonts/my-first-font-advanced.ttf) format("truetype");
+      }
+      body {
+        background-color: rgb(55, 55, 55);
+      }
+      h2 {
+        font-family: My-First-Font-Advanced;
+        color: darkgray;
+        text-align: center;
+      }
+      a {
+        font-family: My-First-Font-Advanced;
+      }
+      .titles {
+        color: darkgray;
+        font-size: 50px;
+        line-height: 10px;
+        animation-duration: 7s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+      }
+      .titleb {
+        color: orange;
+        font-size: 75px;
+        line-height: 100px;
+        margin-bottom: 450px;
+      }
+      .centered {
+        margin-top: 350px;
+        text-align: center;
+      }
+      .titler {
+        color: black;
+        font-size: 100px;
+        line-height: 150px;
+      }
+      @keyframes slidein {
+        0% {
+          margin-top: 110px;
+        }
+        49% {
+          margin-top: 122px;
+        }
+        100% {
+          margin-top: 110px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="titles">The Adventure of The</h2>
+    <h2 class="titleb">ORANGE UNIVERSE</h2>
+    <div class="centered">
+      <a href="Zone1.html" class="titler" style="text-decoration: none"
+        >START</a
+      >
+    </div>
+  </body>
+</html>
