@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>The Adventure of The Orange Universe</title>
+    <style>
+      @font-face {
+        font-family: Sans;
+        src: url(/fonts/micross.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font;
+        src: url(/fonts/my-first-font.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font-Advanced;
+        src: url(/fonts/my-first-font-advanced.ttf) format("truetype");
+      }
+      body {
+        background-image: url("images/B1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .messages {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        margin-top: 10px;
+      }
+      .arrow_up {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+      }
+      .arrow_down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        margin-top: 315px;
+      }
+      .arrow_left {
+        width: 5%;
+        float: left;
+        margin-top: 355px;
+      }
+      .arrow_right {
+        margin-right: 5px;
+        width: 5%;
+        float: right;
+        animation-duration: 7s;
+        animation-name: slidein2;
+        animation-iteration-count: infinite;
+      }
+      .item {
+        margin-left: 1050px;
+        width: 8%;
+        animation-duration: 7s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+      }
+      @keyframes slidein {
+        0% {
+          margin-top: 274px;
+        }
+        49% {
+          margin-top: 286px;
+        }
+        100% {
+          margin-top: 274px;
+        }
+      }
+      @keyframes slidein2 {
+        0% {
+          margin-top: 430px;
+        }
+        49% {
+          margin-top: 442px;
+        }
+        100% {
+          margin-top: 430px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/items/rocketfragment.png" alt="item" class="item" />
+    <a href="B2k.html">
+      <img src="images/arrow_right.png" alt="arrow_right" class="arrow_right" />
+    </a>
+    <audio src="sounds/theme.mp3" autoplay loop></audio>
+  </body>
+</html>

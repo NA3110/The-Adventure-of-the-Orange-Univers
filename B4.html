@@ -20,7 +20,7 @@
         src: url(/fonts/my-first-font-advanced.ttf) format("truetype");
       }
       body {
-        background-image: url("images/univers.png");
+        background-image: url("images/B4.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -30,30 +30,57 @@
         margin-left: auto;
         margin-right: auto;
         width: 75%;
-        animation-duration: 14s;
+        margin-top: 10px;
+      }
+      .arrow_up {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        animation-duration: 7s;
         animation-name: slidein;
         animation-iteration-count: infinite;
       }
+      .arrow_down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        margin-top: 785px;
+      }
+      .arrow_left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        float: left;
+        margin-top: 355px;
+      }
+      .arrow_right {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+        float: right;
+      }
       @keyframes slidein {
         0% {
-          margin-top: 420px;
+          margin-top: 10px;
         }
         49% {
-          margin-top: 432px;
+          margin-top: 22px;
         }
         100% {
-          margin-top: 420px;
+          margin-top: 10px;
         }
       }
     </style>
   </head>
   <body>
+    <img src="images/arrow_over_denied.png" alt="arrow_left" class="arrow_up" />
     <a href="B3.html">
-      <img
-        src="images/dialoges/start12.png"
-        alt="Dieses Spiel ist kapput"
-        class="messages"
-      />
+      <img src="images/arrow_left.png" alt="arrow_left" class="arrow_left" />
     </a>
+    <audio src="sounds/theme.mp3" autoplay loop></audio>
   </body>
 </html>
