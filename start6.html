@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>The Adventure of The Orange Universe</title>
+    <style>
+      @font-face {
+        font-family: Sans;
+        src: url(/fonts/micross.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font;
+        src: url(/fonts/my-first-font.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: My-First-Font-Advanced;
+        src: url(/fonts/my-first-font-advanced.ttf) format("truetype");
+      }
+      body {
+        background-image: url("images/univers.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .messages {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        animation-duration: 14s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+      }
+      @keyframes slidein {
+        0% {
+          margin-top: 420px;
+        }
+        49% {
+          margin-top: 432px;
+        }
+        100% {
+          margin-top: 420px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="start7.html">
+      <img
+        src="images/dialoges/start6.png"
+        alt="Dieses Spiel ist kapput"
+        class="messages"
+      />
+    </a>
+  </body>
+</html>
